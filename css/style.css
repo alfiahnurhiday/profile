@@ -10,6 +10,7 @@ nav {
 	background-color: yellow;
 	box-shadow: 10px 10px 10px #ddd;
 	position: fixed;
+	border-bottom: 1px solid #000;
 	
 }
 
@@ -17,17 +18,17 @@ ul {
 	margin: 0;
 	padding: 1rem;
 	float : right;
-	list-style-type: none;
+	
 }
 
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 0 0.5rem;
+	padding: 0 8px;
 
 }
 
-nav li a{
+a{
 	text-decoration: none;
 	color: black;
 }
@@ -42,6 +43,7 @@ nav li a{
 
 .section h3{
 	margin: 0;
+	padding-top: 60px;
 }
 
 .section h1{
@@ -67,23 +69,24 @@ nav li a{
 }
 
 #gambar img{
-	width: 80%;
+	width: 100%;
 	border-radius: 8px;
 }
 
 /*Button*/
-.call me {
+.call-me {
 	padding: 12px 32px;
 	background-color: #fff;
 	color: #ff75b1;
 	margin-top: 16px;
 	border-radius: 32px;
 	border: 1px solid #ff7b51;
+	transition: 0.3s;
 }
 
-.call me:hover {
-	box-shadow: 0px 10px 10px #ddd;
+.call-me: hover {
+	box-shadow: 0px 10px 20px #ddd;
 	background-color: #ff7b51;
 	color: white;
-	transition:
+	transition: 0.3s;
 }

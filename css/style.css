@@ -70,3 +70,20 @@ nav li a{
 	width: 80%;
 	border-radius: 8px;
 }
+
+/*Button*/
+.call me {
+	padding: 12px 32px;
+	background-color: #fff;
+	color: #ff75b1;
+	margin-top: 16px;
+	border-radius: 32px;
+	border: 1px solid #ff7b51;
+}
+
+.call me:hover {
+	box-shadow: 0px 10px 10px #ddd;
+	background-color: #ff7b51;
+	color: white;
+	transition:
+}
